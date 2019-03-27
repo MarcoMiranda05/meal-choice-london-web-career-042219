@@ -3,4 +3,4 @@ def meal_choice
   puts "#{meal_choice}"
 end
 
-meal_choice("vegan")
+puts meal_choice("vegan")
