@@ -1,6 +1,5 @@
-def meal_choice(meal_choice="meat")
-  meal_choice = "meat"
-  puts "#{meal_choice}"
+def meal_choice(meal="meat")
+  puts "#{meal}"
 end
 
 puts meal_choice("vegan")
