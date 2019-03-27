@@ -1,5 +1,7 @@
-def greeting(name, language="Ruby")
-  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+require_relative ../meal_choice.#!/usr/bin/env ruby -wKU
+
+def meal_choice(meal_choice="meat")
+  puts "#{meal_choice}"
 end
 
-greeting("Sophie", "Ember.js")
+meal_choice("vegan")
